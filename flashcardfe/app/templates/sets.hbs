@@ -1,6 +1,6 @@
 <ul>
+  <h1>Hi there{{model.flashcardSets.length}}</h1>
   {{#each model.flashcardSets as |flashcardSet|}}
     <li>{{flashcardSet.name}}</li>
   {{/each}}
 </ul>
-{{outlet}}
